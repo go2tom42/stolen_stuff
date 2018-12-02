@@ -1,0 +1,10 @@
+/* You can find an updated version here: https://github.com/Izheil/Firefox-57-full-dark-theme-with-scrollbars */
+/* Last updated: 25/05/2018 */
+/* Changes added by Paddles */
+
+/* DO NOT DELETE THIS LINE */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* This enables the use of JS external files */
+toolbarbutton#alltabs-button {
+    -moz-binding: url("userChrome.xml#js")}
