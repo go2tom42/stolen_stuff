@@ -18,7 +18,7 @@ function zzzz_MultiRowTabLite() {
     /* MULTIROW TABS CSS */
     .tabbrowser-tab:not([pinned]) {
         flex-grow:1;
-        min-width:100px}
+        min-width:150px}
 
     .tabbrowser-tab, .tab-background {height:var(--tab-min-height) !important}
 
