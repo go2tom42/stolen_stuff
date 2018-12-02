@@ -5,6 +5,100 @@
 /* DO NOT DELETE THIS LINE */
 @namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
 
+
+/* Show close button on hover */
+.tab-close-button{ display: none }
+.tabbrowser-tab:not([pinned]):hover .tab-close-button{
+    display: -moz-box !important
+}
+
+:root {
+
+  /* These ones are used for the read/unread tabs styling. For italic rules use 
+  either "normal" or "italic" without the quotes for either no italics or using italics, 
+  and for bold, use either "bold" or "normal" in the same way */
+  --Loaded-and-selected-text: #000;
+  --Loaded-and-selected-italic: normal;
+  --Loaded-and-selected-bold: normal;
+  --Loaded-and-selected-background: transparent;
+
+  --Loaded-but-unread-text: #000;
+  --Loaded-but-unread-italic: italic;
+  --Loaded-but-unread-bold: normal;
+  --Loaded-but-unread-background: transparent;
+
+  --Not-loaded-text: #000064;
+  --Not-loaded-italic: italic;
+  --Not-loaded-bold: normal;
+  --Not-loaded-background: #transparent;
+
+  --Loading-text: #0088ff;
+  --Loading-italic: normal;
+  --Loading-bold: normal;
+  --Loading-background: transparent;
+
+}
+/* Tabs border color */
+.tabbrowser-tab {
+/*	border-top: 1px solid rgba(0,0,0, .4) !important; */
+	border-right: 1px solid rgba(0,0,0, .4) !important}
+	/* TAB READ/UNREAD COLORS */
+
+/* You can bold the text of any tab adding "font-weight: bold !important" after their last rule, but before the "}"  */
+
+.tabbrowser-tab:not([pinned]) {
+    min-width:150px !important; /* Needed important tag, width can be whatever you like */
+	border-left: 0px solid rgba(0,0,0, .4) !important;
+	border-radius: 0px !important;
+  }
+
+/* Selected (loaded) */
+.tabbrowser-tab[selected="true"] .tab-label {
+  color: var(--Loaded-and-selected-text) !important;
+  font-style: var(--Loaded-and-selected-italic) !important;
+  font-weight: var(--Loaded-and-selected-bold) !important;
+  background-color: var(--Loaded-and-selected-background) !important;
+  
+  }
+
+/* Loaded but unread (not selected) */
+.tabbrowser-tab:not([selected="true"])[unread] .tab-label {
+  color: var(--Loaded-but-unread-text) !important;
+  font-style: var(--Loaded-but-unread-italic) !important;
+  font-weight: var(--Loaded-but-unread-bold) !important;
+  background-color: var(--Loaded-but-unread-background) !important;
+  }
+
+/* ME */  
+.tabbrowser-tab:not([selected="true"])[pending] .tab-background,
+.tabbrowser-tab:not([selected="true"])[visited] .tab-background {
+  background: #cdcdcd !important;
+  opacity: .8 !important;
+  margin: 0 -0.5px !important;
+  
+ }
+
+  
+/* Not loaded yet (also visited) */
+.tabbrowser-tab:not([selected="true"])[pending] .tab-label,
+.tabbrowser-tab:not([selected="true"])[visited] .tab-label {
+  color: var(--Not-loaded-text) !important;
+  font-style: var(--Not-loaded-italic) !important;
+  font-weight: var(--Not-loaded-bold) !important;
+  background-color: var(--Not-loaded-background) !important;
+  margin: 0 -0.5px !important;
+  opacity: .8 !important;
+  }
+  
+
+/* loading */
+.tabbrowser-tab[busy] .tab-text.tab-label {
+  color: var(--Loading-text) !important;
+  font-style: var(--Loading-italic) !important;
+  font-weight: var(--Loading-bold) !important;
+  background-color: var(--Loading-background) !important}
+	
+	
 /* This enables the use of JS external files */
 toolbarbutton#alltabs-button {
     -moz-binding: url("userChrome.xml#js")}
