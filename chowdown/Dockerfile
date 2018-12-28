@@ -1,14 +1,17 @@
-version: '2'
+FROM ruby:2.4-alpine
 
-services:
-  jekyll:
-    image: raveious/jekyll-website
-    volumes:
-      - .:/site
-    ports:
-      - '4000:4000'
-    environment:
-      - TARGET_REPO=https://github.com/clarklab/chowdown.git
-      - TARGET_BRANCH=master
-    env_file:
-      - ./.env
+RUN apk add --update --no-cache build-base gcc bash git nodejs
+
+RUN gem install jekyll
+
+EXPOSE 4000
+
+WORKDIR /site
+
+COPY ./docker-entrypoint.sh /usr/local/bin/
+
+ENV TARGET_BRANCH=master
+
+ENTRYPOINT [ "docker-entrypoint.sh" ]
+
+CMD [ "bundle", "exec", "jekyll", "serve", "--safe", "--trace", "--force_polling", "-H", "0.0.0.0", "-P", "4000" ]
