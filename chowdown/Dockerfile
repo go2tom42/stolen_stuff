@@ -8,7 +8,7 @@ EXPOSE 4000
 
 WORKDIR /site
 
-COPY ./chowdown/docker-entrypoint.sh /usr/local/bin/
+COPY docker-entrypoint.sh /usr/local/bin/
 
 ENV TARGET_BRANCH=master
 
