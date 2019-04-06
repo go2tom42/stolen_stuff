@@ -6,7 +6,9 @@
 
 FROM        alpine:3.8 AS base
 
-RUN     apk  add --no-cache --update libgcc libstdc++ ca-certificates libcrypto1.0 libssl1.0 libgomp expat git
+RUN     apk  add --no-cache --update libgcc libstdc++ ca-certificates libcrypto1.0 libssl1.0 libgomp expat git && \
+  wget https://github.com/ytdl-org/youtube-dl/releases/latest/download/youtube-dl -O /bin/youtube-dl && \
+  chmod a+rx /bin/youtube-dl
 
 
 FROM        base AS build
