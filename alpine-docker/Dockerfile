@@ -366,8 +366,8 @@ RUN \
 FROM        base AS release
 MAINTAINER  Julien Rottenberg <julien@rottenberg.info>
 
-CMD         ["--help"]
-ENTRYPOINT  ["ffmpeg"]
+#CMD         ["--help"]
+#ENTRYPOINT  ["ffmpeg"]
 
 COPY --from=build /usr/local /usr/local
 
