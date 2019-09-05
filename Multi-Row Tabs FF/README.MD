@@ -1,6 +1,4 @@
-Updated by me to work on version 69
-
-Stolen from https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme
+Stolen from https://github.com/Izheil/Quantum-Nox-Firefox-Dark-Full-Theme but modified
 
 Put files in you FF profile "Root Directory" /chrome   You might have to create the /chrome part of the folder
 
