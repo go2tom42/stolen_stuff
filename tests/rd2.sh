@@ -10,6 +10,8 @@ sed -i 's/#CCCCCC/#000000/g' ./reddwarffandomcom-20220813-current.xml
 sed -i 's/#cccccc/#000000/g' ./reddwarffandomcom-20220813-current.xml
 sed -i 's/#EFEFEF/#000000/g' ./reddwarffandomcom-20220813-current.xml
 sed -i 's/#efefef/#000000/g' ./reddwarffandomcom-20220813-current.xml
+sed -i 's/#F9F9F9/#000000/g' ./reddwarffandomcom-20220813-current.xml
+sed -i 's/#f9f9f9/#000000/g' ./reddwarffandomcom-20220813-current.xml
 
 
 sed -i 's/#DDD/#000/g' ./reddwarffandomcom-20220813-current.xml
