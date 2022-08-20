@@ -10,8 +10,8 @@ mkdir /wikidump
 chmod 777 /wikidump
 
 
-sed -i 's/"Bitnami MediaWiki"/"Red Dwarf"/g' /bitnami/mediawiki/LocalSettings.php
-sed -i 's/"Bitnami_MediaWiki"/"Red Dwarf"/g' /bitnami/mediawiki/LocalSettings.php
+sed -i 's/"Bitnami MediaWiki"/"Tongue Tied"/g' /bitnami/mediawiki/LocalSettings.php
+sed -i 's/"Bitnami_MediaWiki"/"Tongue_Tied"/g' /bitnami/mediawiki/LocalSettings.php
 sed -i 's/"vector"/"Citizen"/g' /bitnami/mediawiki/LocalSettings.php
 echo '' >> /bitnami/mediawiki/LocalSettings.php
 echo '' >> /bitnami/mediawiki/LocalSettings.php
