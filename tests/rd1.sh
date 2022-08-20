@@ -1,6 +1,10 @@
 
 
-apt-get install git curl libjpeg-dev autoconf automake imagemagick gcc redis-server build-essential p7zip-full redis -y && curl -fsSL https://deb.nodesource.com/setup_12.x | bash - && apt-get install -y nodejs && npm -g config set user root && npm i -g mwoffliner
+apt-get install git curl libjpeg-dev autoconf automake imagemagick gcc p7zip-full -y 
+#curl -fsSL https://deb.nodesource.com/setup_12.x | bash - 
+#apt-get install -y nodejs 
+#npm -g config set user root 
+#npm i -g mwoffliner
 
 mkdir /wikidump
 chmod 777 /wikidump
