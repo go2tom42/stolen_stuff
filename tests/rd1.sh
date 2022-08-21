@@ -50,7 +50,6 @@ echo 'wfLoadExtension( "WikiaLikeGallery" );' >> /bitnami/mediawiki/LocalSetting
 echo 'wfLoadExtension( "VisualEditor" );' >> /bitnami/mediawiki/LocalSettings.php
 echo 'wfLoadExtension( "Variables" );' >> /bitnami/mediawiki/LocalSettings.php
 echo 'wfLoadExtension( "Scribunto" );' >> /bitnami/mediawiki/LocalSettings.php
-echo 'wfLoadExtension( "Collection" );' >> /bitnami/mediawiki/LocalSettings.php
 echo 'wfLoadExtension( "TabberNeue" );' >> /bitnami/mediawiki/LocalSettings.php
 echo 'wfLoadExtension( "DummyFandoomMainpageTags" );' >> /bitnami/mediawiki/LocalSettings.php
 echo 'wfLoadExtension( "EmbedVideo" );' >> /bitnami/mediawiki/LocalSettings.php
