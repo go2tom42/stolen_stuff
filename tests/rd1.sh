@@ -49,11 +49,11 @@ echo 'wfLoadExtension( "PageImages" );' >> /bitnami/mediawiki/LocalSettings.php
 echo 'wfLoadExtension( "DisplayTitle" );' >> /bitnami/mediawiki/LocalSettings.php
 echo 'wfLoadExtension( "WikiaLikeGallery" );' >> /bitnami/mediawiki/LocalSettings.php
 echo 'wfLoadExtension( "VisualEditor" );' >> /bitnami/mediawiki/LocalSettings.php
-echo 'wfLoadExtension( "Variables" );' >> /bitnami/mediawiki/LocalSettings.php
+# echo 'wfLoadExtension( "Variables" );' >> /bitnami/mediawiki/LocalSettings.php
 echo 'wfLoadExtension( "Scribunto" );' >> /bitnami/mediawiki/LocalSettings.php
 echo 'wfLoadExtension( "TabberNeue" );' >> /bitnami/mediawiki/LocalSettings.php
 echo 'wfLoadExtension( "DummyFandoomMainpageTags" );' >> /bitnami/mediawiki/LocalSettings.php
-echo 'wfLoadExtension( "EmbedVideo" );' >> /bitnami/mediawiki/LocalSettings.php
+# echo 'wfLoadExtension( "EmbedVideo" );' >> /bitnami/mediawiki/LocalSettings.php
 echo '$wgEnableUploads = true;' >> /bitnami/mediawiki/LocalSettings.php
 echo '$wgUseImageMagick = true;' >> /bitnami/mediawiki/LocalSettings.php
 echo '$wgImageMagickConvertCommand = "/usr/bin/convert";' >> /bitnami/mediawiki/LocalSettings.php
@@ -67,11 +67,11 @@ sudo -Hu bitnami git clone -b REL1_37 https://gerrit.wikimedia.org/r/mediawiki/e
 sudo -Hu bitnami git clone -b REL1_37 https://gerrit.wikimedia.org/r/mediawiki/extensions/Collection
 sudo -Hu bitnami git clone -b REL1_37 https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateStyles
 sudo -Hu bitnami git clone https://github.com/Universal-Omega/PortableInfobox.git --depth=1
-sudo -Hu bitnami git clone -b REL1_37 https://gerrit.wikimedia.org/r/mediawiki/extensions/Variables
+# sudo -Hu bitnami git clone -b REL1_37 https://gerrit.wikimedia.org/r/mediawiki/extensions/Variables
 sudo -Hu bitnami git clone -b REL1_37 https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileFrontend 
 sudo -Hu bitnami git clone https://github.com/ciencia/mediawiki-extensions-DummyFandoomMainpageTags DummyFandoomMainpageTags --branch master
 sudo -Hu bitnami git clone https://github.com/StarCitizenTools/mediawiki-extensions-TabberNeue.git TabberNeue
-sudo -Hu bitnami git clone https://gitlab.com/hydrawiki/extensions/EmbedVideo.git
+# sudo -Hu bitnami git clone https://gitlab.com/hydrawiki/extensions/EmbedVideo.git
 sudo -Hu bitnami git clone -b REL1_37 https://gerrit.wikimedia.org/r/mediawiki/extensions/Capiunto
 cd /bitnami/mediawiki/skins
 sudo -Hu bitnami git clone https://github.com/StarCitizenTools/mediawiki-skins-Citizen Citizen
