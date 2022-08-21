@@ -10,6 +10,7 @@ mkdir /wikidump
 chmod 777 /wikidump
 
 wget -O /home/bitnami/stack/mediawiki/resources/assets/RedDwarf.svg https://github.com/go2tom42/stolen_stuff/raw/master/tests/RedDwarf.svg
+wget -O /home/bitnami/stack/mediawiki/favicon.ico https://raw.githubusercontent.com/go2tom42/stolen_stuff/master/tests/favicon.ico
 
 sed -i 's/"Bitnami MediaWiki"/"Tongue Tied"/g' /bitnami/mediawiki/LocalSettings.php
 sed -i 's/"Bitnami_MediaWiki"/"Tongue_Tied"/g' /bitnami/mediawiki/LocalSettings.php
