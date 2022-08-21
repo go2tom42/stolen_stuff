@@ -22,7 +22,7 @@ echo '' >> /bitnami/mediawiki/LocalSettings.php
 echo '' >> /bitnami/mediawiki/LocalSettings.php
 echo '' >> /bitnami/mediawiki/LocalSettings.php
 echo '' >> /bitnami/mediawiki/LocalSettings.php
-echo '$wgDebugLogFile = "/var/log/mediawiki/debug.log"; >> /bitnami/mediawiki/LocalSettings.php
+echo '$wgDebugLogFile = "/var/log/mediawiki/debug.log";' >> /bitnami/mediawiki/LocalSettings.php
 echo '$wgCitizenThemeDefault = "dark";' >> /bitnami/mediawiki/LocalSettings.php
 echo '$wgCitizenEnableCollapsibleSections = false;' >> /bitnami/mediawiki/LocalSettings.php
 echo '$wgCitizenShowPageTools = "login";' >> /bitnami/mediawiki/LocalSettings.php
