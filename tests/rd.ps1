@@ -152,6 +152,7 @@ $text3 = @"
 .mw-portlet-coll-print_export { display:none }
 .citizen-search__buttonIcon { display:none }
 #citizen-personalMenu__buttonCheckbox { display:none }
+.citizen-search__button { display:none }
 "@
 
 
