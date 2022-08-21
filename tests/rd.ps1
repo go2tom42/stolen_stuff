@@ -4,7 +4,7 @@ $protocol = 'http://'
 $wiki = '192.168.1.18/'
 $api = 'api.php'
 $username = 'user'
-$password = '4DfaQhmbE1fn'
+$password = 'pPtKYBSJVXb6'
 
 $csrftoken
 $websession
