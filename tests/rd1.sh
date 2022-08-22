@@ -22,7 +22,9 @@ echo '' >> /bitnami/mediawiki/LocalSettings.php
 echo '' >> /bitnami/mediawiki/LocalSettings.php
 echo '' >> /bitnami/mediawiki/LocalSettings.php
 echo '' >> /bitnami/mediawiki/LocalSettings.php
+
 echo '$wgDebugLogFile = "/var/log/mediawiki/debug.log";' >> /bitnami/mediawiki/LocalSettings.php
+
 echo '$wgCitizenThemeDefault = "dark";' >> /bitnami/mediawiki/LocalSettings.php
 echo '$wgCitizenEnableCollapsibleSections = false;' >> /bitnami/mediawiki/LocalSettings.php
 echo '$wgCitizenShowPageTools = "login";' >> /bitnami/mediawiki/LocalSettings.php
@@ -40,7 +42,9 @@ echo '$wgGroupPermissions["*"]["createaccount"] = false;' >> /bitnami/mediawiki/
 echo '$wgHTTPTimeout = 550;' >> /bitnami/mediawiki/LocalSettings.php
 echo '$wgAsyncHTTPTimeout = 550;' >> /bitnami/mediawiki/LocalSettings.php
 echo '$wgPFEnableStringFunctions = true;' >> /bitnami/mediawiki/LocalSettings.php
+
 echo 'wfLoadExtension( "ParserFunctions" );' >> /bitnami/mediawiki/LocalSettings.php
+
 echo 'wfLoadExtension( "TemplateStyles" );' >> /bitnami/mediawiki/LocalSettings.php
 echo 'wfLoadExtension( "PortableInfobox" );' >> /bitnami/mediawiki/LocalSettings.php
 echo 'wfLoadExtension( "Capiunto" );' >> /bitnami/mediawiki/LocalSettings.php
