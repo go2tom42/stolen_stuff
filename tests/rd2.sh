@@ -30,4 +30,4 @@ sudo -Hu bitnami php /opt/bitnami/mediawiki/maintenance/rebuildall.php
 sudo -Hu bitnami php /opt/bitnami/mediawiki/maintenance/update.php
 
 
-
+chmod -R 777 /bitnami/mediawiki/images/thumb
