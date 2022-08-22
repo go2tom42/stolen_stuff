@@ -163,6 +163,45 @@ $text4 = @"
 <center>'''Tongue Tied needs you to help contribute to our articles. [[:Category:Browse|Start exploring!]]'''</center><br />
 <center><small>This wiki was started 7 November 2006. There are currently '''[[Special:Statistics|{{NUMBEROFARTICLES}} articles]]''' and '''[[Special:Newimages|{{NUMBEROFFILES}} images]]'''.<br />Today is {{CURRENTDAY}} {{CURRENTMONTHNAME}}, {{CURRENTYEAR}}.</small></center><br />
 <center>'''''"This is an S.O.S. distress call from the [[Jupiter Mining Corporation|mining ship]] [[Red Dwarf (ship)|Red Dwarf]]. The crew are dead, killed by a [[Cadmium II|radiation leak]]. The only survivors are [[Dave Lister]], who was in [[Stasis|suspended animation]] during the disaster, and his [[Frankenstein |pregnant cat]], who was safely sealed in the hold. Revived three million years later, Lister's only companions are a [[Cat|life-form who evolved from his cat]], and [[Arnold Rimmer]], a [[hologram]] simulation of one of the dead crew. Message ends."'''''<br />-[[Holly]] ([[Series I]])</center><br />
+<br />
+<br />
+{|class="wikitable sortable mw-collapsible" 
+|+ class="nowrap" | Series I - IV
+!Series I
+!Series II
+!Series III
+!Series IV
+|-
+|[[RD:_The End|The End]]
+|[[RD:_Kryten|Kryten]]
+|[[RD:_Backwards|Backwards]]
+|[[RD:_Camille|Camille]]
+|-
+|[[RD:_Future Echoes|Future Echoes]]
+|[[RD:_Better Than Life|Better Than Life]]
+|[[RD:_Marooned|Marooned]]
+|[[RD:_D.N.A.|D.N.A.]]
+|-
+|[[RD:_Balance of Power|Balance of Power]]
+|[[RD:_Thanks for the Memory|Thanks for the Memory]]
+|[[RD:_Polymorph|Polymorph]]
+|[[RD:_Justice|Justice]]
+|-
+|[[RD:_Waiting for God|Waiting for God]]
+|[[RD:_Stasis Leak|Stasis Leak]]
+|[[RD:_Bodyswap|Bodyswap]]
+|[[RD:_White Hole|White Hole]]
+|-
+|[[RD:_Confidence and Paranoia|Confidence and Paranoia]]
+|[[RD:_Queeg|Queeg]]
+|[[RD:_Timeslides|Timeslides]]
+|[[RD:_Dimension Jump|Dimension Jump]]
+|-
+|[[RD:_Me²|Me²]]
+|[[RD:_Parallel Universe|Parallel Universe]]
+|[[RD:_The_Last_Day|The Last Day]]
+|[[RD:_Meltdown|Meltdown]]
+|}
 "@
 
 $text5 = @"
