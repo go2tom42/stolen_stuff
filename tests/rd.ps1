@@ -160,48 +160,136 @@ $text4 = @"
 [[File:RD Welcome.png|center|link=]]
 <center>'''[[Tongue Tied:About|Tongue Tied]] is a collaborative project to create the most definitive, accurate, and accessible encyclopedia and reference database for everything related to ''[[Red Dwarf]]'''''.</center><br />
 [[File:Tongue-tied-needs-you.png|center|link=]]
-<center>'''Tongue Tied needs you to help contribute to our articles. [[:Category:Browse|Start exploring!]]'''</center><br />
-<center><small>This wiki was started 7 November 2006. There are currently '''[[Special:Statistics|{{NUMBEROFARTICLES}} articles]]''' and '''[[Special:Newimages|{{NUMBEROFFILES}} images]]'''.<br />Today is {{CURRENTDAY}} {{CURRENTMONTHNAME}}, {{CURRENTYEAR}}.</small></center><br />
-<center>'''''"This is an S.O.S. distress call from the [[Jupiter Mining Corporation|mining ship]] [[Red Dwarf (ship)|Red Dwarf]]. The crew are dead, killed by a [[Cadmium II|radiation leak]]. The only survivors are [[Dave Lister]], who was in [[Stasis|suspended animation]] during the disaster, and his [[Frankenstein |pregnant cat]], who was safely sealed in the hold. Revived three million years later, Lister's only companions are a [[Cat|life-form who evolved from his cat]], and [[Arnold Rimmer]], a [[hologram]] simulation of one of the dead crew. Message ends."'''''<br />-[[Holly]] ([[Series I]])</center><br />
-<br />
-<br />
-{|class="wikitable mw-collapsible";
-|+ style="white-space:nowrap; border:2px solid red; width: 1440px;" | Series I - IV
-! style="white-space:nowrap; border:1px solid red; width: 350px;" |Series I
-! style="white-space:nowrap; border:1px solid red; width: 350px;" |Series II
-! style="white-space:nowrap; border:1px solid red; width: 350px;" |Series III
-! style="white-space:nowrap; border:1px solid red; width: 350px;" |Series IV
+<center>'''Tongue Tied needs you to help contribute to our articles. [[:Category:Browse|Start exploring!]]'''</center>
+<center><small>This wiki was started 7 November 2006. There are currently '''[[Special:Statistics|{{NUMBEROFARTICLES}} articles]]''' and '''[[Special:Newimages|{{NUMBEROFFILES}} images]]'''.<br />Today is {{CURRENTDAY}} {{CURRENTMONTHNAME}}, {{CURRENTYEAR}}.</small></center>
+<center>'''''"This is an S.O.S. distress call from the [[Jupiter Mining Corporation|mining ship]] [[Red Dwarf (ship)|Red Dwarf]]. The crew are dead, killed by a [[Cadmium II|radiation leak]]. The only survivors are [[Dave Lister]], who was in [[Stasis|suspended animation]] during the disaster, and his [[Frankenstein |pregnant cat]], who was safely sealed in the hold. Revived three million years later, Lister's only companions are a [[Cat|life-form who evolved from his cat]], and [[Arnold Rimmer]], a [[hologram]] simulation of one of the dead crew. Message ends."'''''<br />-[[Holly]] ([[Series I]])</center>
+<center>
+{|class="wikitable mw-collapsible  mw-collapsed";
+|+ style="margin-left: auto; margin-right: auto; border: none; width: 1080px; text-align: center;" | Series I - IV
+! style="border:1px solid red; width: 260px; text-align: center; padding: .2% 1% .2% 1%;" |[[Series_I|Series I]]
+! style="border:1px solid red; width: 260px; text-align: center; padding: .2% 1% .2% 1%;" |[[Series_II|Series II]]
+! style="border:1px solid red; width: 260px; text-align: center; padding: .2% 1% .2% 1%;" |[[Series_III|Series III]]
+! style="border:1px solid red; width: 260px; text-align: center; padding: .2% 1% .2% 1%;" |[[Series_IV|Series IV]]
 |-
-| style="border:1px solid red" |[[RD:_The End|The End]]
-| style="border:1px solid red" |[[RD:_Kryten|Kryten]]
-| style="border:1px solid red" |[[RD:_Backwards|Backwards]]
-| style="border:1px solid red" |[[RD:_Camille|Camille]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_The End|The End]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Kryten|Kryten]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Backwards|Backwards]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Camille|Camille]]
 |-
-|[[RD:_Future Echoes|Future Echoes]]
-|[[RD:_Better Than Life|Better Than Life]]
-|[[RD:_Marooned|Marooned]]
-|[[RD:_D.N.A.|D.N.A.]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Future Echoes|Future Echoes]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Better Than Life|Better Than Life]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Marooned|Marooned]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_D.N.A.|D.N.A.]]
 |-
-|[[RD:_Balance of Power|Balance of Power]]
-|[[RD:_Thanks for the Memory|Thanks for the Memory]]
-|[[RD:_Polymorph|Polymorph]]
-|[[RD:_Justice|Justice]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Balance of Power|Balance of Power]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Thanks for the Memory|Thanks for the Memory]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Polymorph|Polymorph]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Justice|Justice]]
 |-
-|[[RD:_Waiting for God|Waiting for God]]
-|[[RD:_Stasis Leak|Stasis Leak]]
-|[[RD:_Bodyswap|Bodyswap]]
-|[[RD:_White Hole|White Hole]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Waiting for God|Waiting for God]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Stasis Leak|Stasis Leak]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Bodyswap|Bodyswap]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_White Hole|White Hole]]
 |-
-|[[RD:_Confidence and Paranoia|Confidence and Paranoia]]
-|[[RD:_Queeg|Queeg]]
-|[[RD:_Timeslides|Timeslides]]
-|[[RD:_Dimension Jump|Dimension Jump]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Confidence and Paranoia|Confidence and Paranoia]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Queeg|Queeg]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Timeslides|Timeslides]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Dimension Jump|Dimension Jump]]
 |-
-|[[RD:_Me²|Me²]]
-|[[RD:_Parallel Universe|Parallel Universe]]
-|[[RD:_The_Last_Day|The Last Day]]
-|[[RD:_Meltdown|Meltdown]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Me²|Me²]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Parallel Universe|Parallel Universe]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_The_Last_Day|The Last Day]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Meltdown|Meltdown]]
 |}
+</center>
+<center>
+{|class="wikitable mw-collapsible  mw-collapsed";
+|+ style="margin-left: auto; margin-right: auto; border: none; width: 1080px; text-align: center;" | Series V - VIII
+! style="border:1px solid red; width: 260px; text-align: center; padding: .2% 1% .2% 1%;" |[[Series_V|Series V]]
+! style="border:1px solid red; width: 260px; text-align: center; padding: .2% 1% .2% 1%;" |[[Series_VI|Series VI]]
+! style="border:1px solid red; width: 260px; text-align: center; padding: .2% 1% .2% 1%;" |[[Series_VII|Series VII]]
+! style="border:1px solid red; width: 260px; text-align: center; padding: .2% 1% .2% 1%;" |[[Series_VIII|Series VIII]]
+|-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Holoship|Holoship]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Psirens|sirens]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Tikka_To_Ride|Tikka To Ride]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Back_in_the_Red_I|Back in the Red I]]
+|-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_The_Inquisitor|The Inquisitor]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Legion|Legion]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Stoke_Me_a_Clipper|Stoke Me a Clipper]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Back_in_the_Red_II|Back in the Red II]]
+|-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Terrorform|Terrorform]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Gunmen_of_the_Apocalypse|Gunmen of the Apocalypse]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Ouroboros|Ouroboros]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Back_in_the_Red_III|Back in the Red III]]
+|-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Quarantine|Quarantine]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Emohawk|Emohawk]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Duct_Soup|Duct Soup]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Cassandra|Cassandra]]
+|-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Demons_%26_Angels|Demons &amp; Angels]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Rimmerworld|Rimmerworld]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Blue|Blue]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Krytie_TV|Krytie TV]]
+|-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Back_To_Reality|Back To Reality]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Out_Of_Time|Out of Time]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Beyond_a_Joke|Beyond a Joke]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Pete_I|Pete I]]
+|-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Epideme|Epideme]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Pete_II|Pete II]]
+|-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Nanarchy|Nanarchy]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Only_The_Good...|Only The Good...]]
+|}
+</center>
+<center>
+{|class="wikitable mw-collapsible  mw-collapsed";
+|+ style="margin-left: auto; margin-right: auto; border: none; width: 1080px; text-align: center;" | Series X - Movies
+! style="border:1px solid red; width: 260px; text-align: center; padding: .2% 1% .2% 1%;" |[[Series_X|Series V]]
+! style="border:1px solid red; width: 260px; text-align: center; padding: .2% 1% .2% 1%;" |[[Series_XI|Series VI]]
+! style="border:1px solid red; width: 260px; text-align: center; padding: .2% 1% .2% 1%;" |[[Series_XII|Series VII]]
+! style="border:1px solid red; width: 260px; text-align: center; padding: .2% 1% .2% 1%;" |Movies
+|-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Trojan|Trojan]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Twentica|Twentica]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Cured|Cured]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[Back_to_Earth|Back To Earth (as Series IX)]]
+|-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Fathers_%26_Suns|Fathers &amp; Suns]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Samsara|Samsara]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Siliconia|Siliconia]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[The_Promised_Land|The Promised Land]]
+|-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Lemons|Lemons]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Give_%26_Take|Give &amp; Take]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Timewave|Timewave]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |-
+|-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Entangled|Entangled]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Officer_Rimmer|Officer Rimmer]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Mechocracy|Mechocracy]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |-
+|-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Dear_Dave|Dear Dave]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Krysis|Krysis]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_M-Corp|M-Corp]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |-
+|-
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_The_Beginning|The Beginning]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Can_of_Worms|Can of Worms]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |[[RD:_Skipper|Skipper]]
+| style="border:1px solid red; padding: .2% 1% .2% 1%;" |-
+|}
+</center>
 "@
 
 $text5 = @"
