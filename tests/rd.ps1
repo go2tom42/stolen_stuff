@@ -165,17 +165,17 @@ $text4 = @"
 <center>'''''"This is an S.O.S. distress call from the [[Jupiter Mining Corporation|mining ship]] [[Red Dwarf (ship)|Red Dwarf]]. The crew are dead, killed by a [[Cadmium II|radiation leak]]. The only survivors are [[Dave Lister]], who was in [[Stasis|suspended animation]] during the disaster, and his [[Frankenstein |pregnant cat]], who was safely sealed in the hold. Revived three million years later, Lister's only companions are a [[Cat|life-form who evolved from his cat]], and [[Arnold Rimmer]], a [[hologram]] simulation of one of the dead crew. Message ends."'''''<br />-[[Holly]] ([[Series I]])</center><br />
 <br />
 <br />
-{|class="wikitable sortable mw-collapsible" 
-|+ class="nowrap" | Series I - IV
-!Series I
-!Series II
-!Series III
-!Series IV
+{|class="wikitable mw-collapsible";
+|+ style="white-space:nowrap; border:2px solid red; width: 1440px;" | Series I - IV
+! style="white-space:nowrap; border:1px solid red; width: 350px;" |Series I
+! style="white-space:nowrap; border:1px solid red; width: 350px;" |Series II
+! style="white-space:nowrap; border:1px solid red; width: 350px;" |Series III
+! style="white-space:nowrap; border:1px solid red; width: 350px;" |Series IV
 |-
-|[[RD:_The End|The End]]
-|[[RD:_Kryten|Kryten]]
-|[[RD:_Backwards|Backwards]]
-|[[RD:_Camille|Camille]]
+| style="border:1px solid red" |[[RD:_The End|The End]]
+| style="border:1px solid red" |[[RD:_Kryten|Kryten]]
+| style="border:1px solid red" |[[RD:_Backwards|Backwards]]
+| style="border:1px solid red" |[[RD:_Camille|Camille]]
 |-
 |[[RD:_Future Echoes|Future Echoes]]
 |[[RD:_Better Than Life|Better Than Life]]
